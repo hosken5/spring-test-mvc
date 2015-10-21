@@ -65,7 +65,7 @@ public class MockHttpServletRequestBuilderTests {
 	public void method() {
 		MockHttpServletRequest request = this.builder.buildRequest(this.servletContext);
 
-		assertEquals("GET", request.getMethod()+"1");
+		assertEquals("GET", request.getMethod());
 	}
 
 	@Test
