@@ -37,6 +37,10 @@ test {
     // ...
 }
 
+cobertura {
+    coverageFormats = ['xml', 'html']
+}
+
 repositories {
     mavenCentral()
     mavenLocal()
